@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="styl-header.css">
     <link rel="stylesheet" href="styl-main.css">
     <link rel="stylesheet" href="styl-footer.css">
-    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
-    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+    <script src="timer.js"></script>
+    <script src="clock.js"></script>
 </head>
 
-<body>
+<body onload="startclock(); starttimer();">
     <header class="header">
         <div class="header__wrap">
             <div class="header__wrap-zdjecie">
@@ -53,6 +53,19 @@
                 <div class="main__wrap-top-img">
                     <img src="Logo_2.png" alt="">
                 </div>
+                <section class="javaScript" id="java2">
+                    <h2>Zegarek</h2>
+                    Aktualny czas:<br />
+                    <input type="text" id="clock" value="00:00:00" 
+                           style="background:none; border:none;
+                                  font-weight:bold; text-align:center" />
+                    <br />
+                    Czas na stronie:<br />
+                    <input type="text" id="myTimer" value="0.00" 
+                           style="background:none; border:none;
+                                  font-weight:bold; text-align:center" />
+                    <br />
+                </section>
             </div>
         </div>
     </section>
