@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igrzyska Olimpijskie</title>
+    <link rel="stylesheet" href="styl-header.css">
+    <link rel="stylesheet" href="styl-main.css">
+    <link rel="stylesheet" href="styl-footer.css">
+    <script src="slider.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__wrap">
+            <div class="header__wrap-zdjecie">
+                <img src="Logo.png" alt="olimpiada">
+            </div>
+
+            <div class="header__wrap-tekst">
+                <a href="praca.html">Strona główna</a>
+                <a href="podstrona1.html">Historia Igrzysk Olimpijskich</a>
+                <a href="podstrona2.html">Zakup biletów</a>
+                <a href="podstrona3.html">Konkurs na bilety VIP</a>
+                <a href="podstrona4.html">Lista dyscyplin</a>
+                <a href="podstrona5.html">Klasyfikacja medalowa Tokio 2020</a>
+                <a href="podstrona6.html">Zimowe Igrzyska Olimpijskie</a>
+                <a href="podstrona7.html">Wiadomości i artykuły</a>
+                <a href="podstrona8.html">Polska na Igrzyskach Olimpijskich</a>
+                <a href="podstrona9.html">Dane kontaktowe</a>
+            </div>
+        </div>
+    </header>
+    <section class="main">
+        <div class="main__wrap">
+            <div class="main__wrap-top">
+                <img src="tlo.png" alt="">
+
+                <div class="main__wrap-top-tekst">
+                    <span>
+                        <h1>Prezentacja</h1>
+                    </span>
+                </div>
+                <div class="elements-list" id="slider1">
+
+                    <div class="slideshow-container">
+
+                        <!-- Full-width images with number and caption text -->
+                        <div class="mySlides fade" style="display:block;">
+                            <img src="Slide1.png" style="width:100%;">
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="Slide2.png" style="width:100%">
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="Slide3.png" style="width:100%">
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="Slide4.png" style="width:100%">
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="Slide5.png" style="width:100%">
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="Slide6.png" style="width:100%">
+                        </div>
+
+                        <!-- Next and previous buttons -->
+
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    <br>
+
+                    <!-- The dots/circles -->
+                    <div class="slider-dots" style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
+                        <span class="dot" onclick="currentSlide(6)"></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__tekst">
+            Tematyka: Igrzyska Olimpijskie <br>
+            Autor: Błażej Witkowski <br>
+            Nr albumu: 149385 <br>
+            Grupa: EN-1, L-2 <br>
+            Wydział: Inżynierii Środowiska i Energetyki <br>
+            Kierunek: Energetyka <br>
+            Prowadzący: dr inż. Łukasz Putz
+        </div>
+    </footer>
+</body>
+
+</html>
